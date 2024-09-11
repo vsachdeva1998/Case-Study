@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smiles Dental Clinic Success Story</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+
+    <style>
+        body {
+            background-color: #f8f9fa;
+            font-family: "Montserrat", sans-serif;
+            margin: 0;
+            height: 100%;
+            width: 100%;
+            font-size: 14px;
+        }
+
+        .container {
+            max-width: 1280px;
+        }
+
+        .header {
+            background-color: #F3F4EB;
+            color: #FFFFFF;
+            background-image: url('https://www.perlsmile.co/wp-content/uploads/2023/03/CKP05708.jpg');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            /* padding: 100px 20px; */
+            text-align: left;
+            /* padding-bottom: 120px; */
+              padding-top: 30px;
+        }
+        .header{
+            display: flex;
+    flex-direction: column;
+    height: 60vh;
+        }
+
+        .header h1 {
+            font-size: 30px;
+            line-height: 40px !important;
+            font-weight: 700 !important;
+            color: #FFFFFF;
+            text-align: center;
+            /* margin: 100px !important; */
+            margin-top: 125px;
+        }
+        .logo{
+            max-width: 200px;
+         margin-bottom: 125px;
+        }
+
+        h5 {
+            font-size: 14px !important;
+        }
+
+        h2 {
+            font-size: 16px !important;
+            font-weight: bold;
+            color: #ffffff !important;
+        }
+
+        .section-title {
+            color: #022b4d !important;
+            margin: 20px 0;
+            text-align: center;
+        }
+
+        .content-wrapper {
+            padding-top: 30px;
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+
+        .content-left,
+        .content-right {
+            width: 48%;
+            margin-bottom: 20px;
+        }
+
+        .image-section1,
+        .image-section {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .image-section1 img,
+        .image-section img {
+            width: 100%;
+            max-width: 100%;
+            height: 400px;
+            border-radius: 45px;
+        }
+
+        .testimonial {
+            background-color: #e9ecef;
+            padding: 20px;
+            border-left: 5px solid #007bff;
+            font-style: italic;
+            text-align: center;
+            margin: 0 auto;
+            width: 50%;
+        }
+
+        .footer {
+            background-color: #F3F4EB;
+            color: #022b4d;
+            text-align: center;
+            font-size: 24px;
+            padding: 20px 0;
+        }
+
+        @media (max-width: 992px) {
+            .content-left,
+            .content-right {
+                width: 100%;
+                max-width: 100%;
+            }
+
+            .testimonial {
+                width: 75%;
+            }
+
+            .header h1 {
+                font-size: 28px;
+                line-height: 36px;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .testimonial {
+                width: 100%;
+                font-size: 14px;
+                line-height: 18px;
+            }
+
+            .header h1 {
+                font-size: 24px;
+                line-height: 32px;
+                padding: 10px 20px;
+            }
+
+            .image-section1 img,
+            .image-section img {
+                max-width: 80%;
+                border-radius: 10px;
+            }
+        }
+
+        @media (max-width: 576px) {
+            .header h1 {
+                font-size: 20px;
+                line-height: 28px;
+            }
+
+            .testimonial {
+                width: 100%;
+                font-size: 12px;
+            }
+
+            .image-section1 img,
+            .image-section img {
+                max-width: 100%;
+                border-radius: 10px;
+            }
+
+            .content-left,
+            .content-right {
+                margin-bottom: 30px;
+            }
+        }
+        .image-section2{
+            max-width: 400%;
+            height: auto;
+            border-radius: 20px;
+            /* box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); */
+            width: 400px;
+            text-align: center;
+        }
+        .image-section2 {
+            
+            width: 100%;
+            text-align: center;
+            /* margin: 50px 0; */
+        
+        }
+        p{
+            font-size: 14px;
+        }
+        .first {
+    background-image: url('https://img.freepik.com/premium-photo/old-grunge-with-faded-lace-texture-background-paper-light-cyan-cream-color-soft-ar-21-v-52-job-id-38e402a37843470887ff787afa87a733_941600-295213.jpg') !important;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    background-color: rgba(255, 255, 255, 0.5); 
+     background-blend-mode: overlay; 
+} 
+h3{
+    font-size: 16px;
+}
+.social-icons {
+    
+    gap: 10px;
+}
+
+.social-icon {
+    background-color: red;
+    color: white;
+    padding: 10px;
+    border-radius: 50%;
+    text-align: center;
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    line-height: 20px;
+    transition: background-color 0.3s;
+}
+
+.social-icon i {
+    font-size: 20px;
+}
+
+.social-icon:hover {
+    background-color: darkred;
+}
+
+
+    </style>
+</head>
+
+<body>
+    <header class="container header">
+        <a href="https://www.cecomputech.com/">
+            <img class="logo" src="https://images.cdn-files-a.com/uploads/2190159/400_64f0e914d9496.png" alt="Logo">
+        </a>
+        <h1>A mid-sized dental practice in a suburban area was facing significant challenges with their revenue cycle
+            management (RCM) process.
+        </h1>
+    </header>
+
+    <div class="container first">
+        <div class="content-wrapper">
+            <div class="content-left">
+                <div class="image-section1">
+                    <img src="https://images.ctfassets.net/pdf29us7flmy/3ujJts90IWKEQdCcgEfqFD/06dbe9025d660a4e642de767a4d9c12a/revenue-cycle-management.png?w=720&q=100&fm=jpg" alt="Dental Clinic Image">
+                </div>
+                <h2 class="section-title">Challenge</h2>
+                <p>Dental Clinic was experiencing several challenges with their RCM, which were impacting their financial health and operational efficiency.</p>
+                <ul>
+                    <li><strong>High Claim Denial Rates:</strong> The clinic faced a 15% claim denial rate, which was significantly above the industry average.</li>
+                    <li><strong>Delayed Reimbursements:</strong> There were frequent delays in payments from insurance companies, leading to cash flow problems.</li>
+                    <li><strong>Inefficient Billing Processes:</strong> Manual billing processes led to frequent errors and delays, causing frustration among the administrative staff.</li>
+                    <li><strong>Low Patient Collection Rates:</strong> The clinic struggled with collecting outstanding balances from patients, impacting overall revenue.</li>
+                </ul>
+            </div>
+            <div class="content-right">
+                <div class="image-section1">
+                    <img src="https://northerndentaldesign.com.au/wp-content/uploads/2022/04/Secrets-Your-Dentist-Wont-Tell-You-I-will-do-anything-for-teeth-but-I-wont-do-that-Epping-Wollert-South-Morang-Melbourne-Northern-Dental-Design.png" alt="Dental Clinic Image">
+                </div>
+                <h2 class="section-title">Solution</h2>
+                <p>Our dental RCM company implemented a comprehensive suite of solutions tailored to address these issues:</p>
+                <h5>Claims Management Optimization</h5>
+                <ul>
+                    <li><strong>Denial Management:</strong> Implemented advanced denial management techniques to identify patterns and root causes of claim denials.</li>
+                    <li><strong>Claims Scrubbing:</strong> Introduced automated claims scrubbing to catch errors before submission, reducing the number of denied claims.</li>
+                </ul>
+                <h5>Improved Reimbursement Processes</h5>
+                <ul>
+                    <li><strong>Insurance Verification:</strong> Implemented real-time insurance verification to ensure eligibility and reduce claim rejections.</li>
+                    <li><strong>Follow-up Automation:</strong> Deployed automated follow-up systems to track unpaid claims and expedite reimbursement processes.</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- <div class="image-section2">
+            <img src="https://cdn.prod.website-files.com/63e343edb67cb3c690e18ffc/63e343edb67cb3372be191cf_cx0XbEd6u7MDVYfux2WT9E4F3i1UUX4jw-NVyGknYrB_RyBmMvM_MrnVLG0peNNUjSLHssQDU5G43htIX7Q2MmA1nvG6VjRoFM7jRbWCKXBPNl_GyDorANiHT91kMAWdOA.png" alt="Dental Clinic Image">
+        </div> -->
+
+        <div class="content-wrapper">
+            <div class="content-left">
+                <div class="image-section1">
+                    <img src="https://www.welcomeware.live/wp-content/uploads/2023/04/dental-front-desk-receptionist-experiencing-efficiency-issue.jpg" alt="Dental Clinic Image">
+                </div>
+                <h2 class="section-title">Streamlined Billing Procedures</h2>
+                <ul>
+                    <li><strong>Billing Software Integration:</strong> Integrated advanced billing software to streamline the billing process and reduce manual entry errors.</li>
+                    <li><strong>Staff Training:</strong> Provided comprehensive training for the clinic’s billing staff on best practices and new software tools.</li>
+                    <li><strong>Payment Plans</strong> Developed flexible payment plans and clear communication strategies to improve patient collections.</li>
+                    <li><strong>Automated Statements:</strong> Implemented automated patient statements and reminders to encourage timely payments.</li>
+                </ul>
+            </div>
+            <div class="content-right">
+                <div class="image-section1">
+                    <img src="https://media.istockphoto.com/id/1388931800/photo/shot-of-a-young-woman-checking-her-results-in-the-dentists-office.jpg?s=612x612&w=0&k=20&c=sOVeQ8jOheW9NzzArqscatbHZNgn1O-l16-Np7yu8ac=" alt="Dental Clinic Image">
+                </div>
+                <h2 class="section-title =">Results</h2>
+                <ul>
+                    <li><strong>Reduced Claim Denial Rate:</strong> The claim denial rate decreased from 15% to 5%, leading to claims being paid on the first submission.</li>
+                    <li><strong>Faster Reimbursements:</strong> Average reimbursement times improved by 30%, alleviating cash flow issues and more financial stability.</li>
+                    <li><strong>Efficient Billing Operations:</strong> Billing errors decreased by 40%, the time spent on billing tasks was reduced by 25%.</li>
+                    <li><strong>Increased Patient Collections:</strong> Patient collection rates improved by 20%, more effective payment plans and automated reminders.</li>
+                </ul>
+            </div>
+        </div>
+        <div class="container mt-4">
+            <div class="col-md-12">
+                <section class="test">
+                    <h3 class="section-title one"><strong>Client Testimonial</strong></h3>
+                    <div class="testimonial">
+                        "Partnering with CEC has been a game-changer for our practice. Their expertise in dental RCM has not only streamlined our billing processes but also significantly improved our financial performance. We’re now able to focus more on patient care rather than getting bogged down with administrative issues. Highly recommended!" — Dr. Emily Johnson, Founder, Smiles Dental Clinic
+                    </div>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <footer class="container social-icons footer">
+        <a href="https://www.facebook.com/Clinicalexcelcomputech" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+        <a href="https://www.linkedin.com/company/cecomputech/" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
+        <a href="https://api.whatsapp.com/send/?phone=%2B12064444097&text&type=phone_number&app_absent=0" class="social-icon"><i class="fab fa-whatsapp"></i></a>
+        <a href="https://www.instagram.com/_cecomputech_/" class="social-icon"><i class="fab fa-instagram"></i></a>
+         
+        
+
+        <p style="margin-top: 15px; font-weight: bold;" class="two">&copy; Copyright © 2024 All rights reserved - CEC -Dental Billing And Medical Billing Services</p>
+    </footer>
+</body>
+
+</html>
